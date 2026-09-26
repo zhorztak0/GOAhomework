@@ -1,0 +1,40 @@
+body {
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #0b132b;
+    color: white;
+    text-align: center;
+}
+
+
+nav,a {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+}
+
+.title{
+    text-align: left;
+    text-decoration: underline;
+}
+
+.sport_news {
+    text-align: center;
+}
+
+
+section {
+    text-align: center;
+}
+
+h4 {
+    color: #00A8CC;
+}
+
+footer {
+    background-color: #0b132b;
+    color: white;
+    text-align: right;
+}
