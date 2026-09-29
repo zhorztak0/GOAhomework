@@ -1,0 +1,41 @@
+<!-- 2) კომენატარების სახით ახსენით რა არის web safe fonts და რაში მდგომარეობს მისი არსი?
+
+web safe fonts არის კომპიუტერში დაინსტალირებული ფონტები.მისი აზრი არის ის,რომ სხვადასხვა მოწყობილობაზე ფონტი გამოჩნდეს
+ერთნაირად.
+-->
+
+<!-- 
+3) კომენტარების სახით რა არის pseudo-selectors და რაში ვიყენებთ (გააკეთეთ თითო-თითო მაგალითი ყველაზე სელექტორზე)
+
+pseudo-selectors გამოიყენება ელემენტის მდგომარეობის შესაცვლელად.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* :hover - გამოიყენება მაშინ, როდესაც მომხმარებელი მაუსს გადაატარებს ელემენტს */
+        a:hover{
+            color: #6897EE;
+            background-color: #000000;
+        }
+        /* :active - გამოიყენება დაჭერის დროს */
+        a:active{
+            color: #B8860B;
+            background-color: #000000;
+        }
+        /* :link - არის უნახავი ბმული */
+        a:link {
+            color: chartreuse;
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <a href="https://www.youtube.com/">youtube</a>
+</body>
+</html> 

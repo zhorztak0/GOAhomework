@@ -1,0 +1,53 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif; 
+    
+}
+
+header {
+    background-color: #b45309;
+    color: #ffffff;
+    text-align: center;
+}
+
+#gold {
+    color: goldenrod; 
+    font-weight: 400;
+}
+
+#info{
+    text-align: justify;
+}
+
+.h2{
+    color: #E3701B;
+    text-decoration: overline;
+}
+
+strong{
+    color: brown;
+}
+
+footer{
+    text-align: center;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:link {
+    color: #75119a;
+    text-decoration: none;
+}
+
+a:active{
+    color: #B8860B;
+    background-color: white;
+} 
+
+
+th {
+    background-color: #d97706;
+    color: #ffffff;
+    text-align:left;
+}
